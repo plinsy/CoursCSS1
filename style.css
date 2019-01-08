@@ -16,6 +16,11 @@ a{
 	position: relative;
 	top: 3px;
 }
+button{
+	height: 36px;
+	margin: auto;
+	line-height: 27px;
+}
 
 mark{
 	background-color: #fff;
@@ -81,7 +86,7 @@ footer div ul li a:hover {
 }
 hr {
 	color: black;
-	opacity: .1;
+	opacity: .5;
 }
 
 footer{
