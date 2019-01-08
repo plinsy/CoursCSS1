@@ -1,8 +1,69 @@
-div{
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
+header, div, footer{
+	border: 2px solid black;
 }
-.logo{
+header{
+	text-align: right;
+	word-spacing: 5px;
+	padding-right: 10px;
+}
+.view{
+	border: 1px solid red;
+	padding-top: 8px;
+
+}
+
+mark{
+	background-color: #fff;
+}
+ul li{
+	padding: 0;
+	display: inline;
+}
+.Sign_in{
+	background-color: #4285f4;
+	color: white;
+	border-radius: 5px;
+}
+.Sign_in:hover {
+	background-color: #6868e7; 
+	cursor: pointer;
+}
+.search_bar{
+	width: 50%;
+}
+.Gmail:hover, .Images:hover, .malagasy:hover, .francais:hover {
+	text-decoration: underline;
+	color: #4285f4;
+	cursor: pointer;
+}
+
+.gs{
+	padding: 109px;	
+	text-align: center;
+}
+.go{
 	
+}
+.langues{
+	word-spacing: 5px;
+}
+
+.mada{
+	padding-left: 20px;
+}
+.left{
+	float: left;
+	margin-left: -22px;
+}
+.right{
+	float: right;
+	padding-right: 18px;
+}
+
+footer{
+	margin:0 0;
+	background-color: #cacad2;
+	width: 98.5%;
+	position: absolute;
+	bottom: 10px;
 }
