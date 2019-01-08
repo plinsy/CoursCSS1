@@ -5,7 +5,7 @@ font-size: 14px;
 header{
 	text-align: right;
 	word-spacing: 5px;
-	padding-right: 10px;
+	padding-right: 50px;
 }
 a{
 	color: black;
@@ -30,24 +30,26 @@ ul li{
 	display: inline;
 }
 .Sign_in{
+	height: 30px;
+	width: 70px;
 	position: relative;
 	top: -2px;
 	background-color: #4285f4;
 	color: white;
-	border-radius: 5px;
+	border-radius: 0;
 }
 .Sign_in:hover {
 	background-color: #6868e7; 
 	cursor: pointer;
 }
 .search_bar{
-	width: 50%;
-	height: 30px;
+	background-color: transparent;
+	box-shadow: .1px .1px 2px;
+	width: 52%;
+	height: 40px;
 }
 .search_bar:hover {
-	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 2px 3px 8px black;
 }
 .Gmail:hover, .Images:hover, .malagasy:hover, .francais:hover {
 	text-decoration: underline;
@@ -58,7 +60,7 @@ ul li{
 .corps{
 	padding: 109px;	
 	text-align: center;
-	line-height: 50px;
+	line-height: 70px;
 }
 .go{
 	
