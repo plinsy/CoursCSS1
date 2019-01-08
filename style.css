@@ -1,15 +1,17 @@
-header, div, footer{
-	border: 2px solid black;
-}
+
 header{
 	text-align: right;
 	word-spacing: 5px;
 	padding-right: 10px;
 }
+a{
+	color: black;
+	text-decoration: none;
+}
 .view{
-	border: 1px solid red;
 	padding-top: 8px;
-
+	position: relative;
+	top: 3px;
 }
 
 mark{
@@ -20,6 +22,8 @@ ul li{
 	display: inline;
 }
 .Sign_in{
+	position: relative;
+	top: -2px;
 	background-color: #4285f4;
 	color: white;
 	border-radius: 5px;
@@ -30,6 +34,12 @@ ul li{
 }
 .search_bar{
 	width: 50%;
+	height: 30px;
+}
+.search_bar:hover {
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 .Gmail:hover, .Images:hover, .malagasy:hover, .francais:hover {
 	text-decoration: underline;
@@ -37,9 +47,10 @@ ul li{
 	cursor: pointer;
 }
 
-.gs{
+.corps{
 	padding: 109px;	
 	text-align: center;
+	line-height: 50px;
 }
 .go{
 	
@@ -59,11 +70,24 @@ ul li{
 	float: right;
 	padding-right: 18px;
 }
+.left, .right{
+	word-spacing: 15px;
+}
+footer div ul li a:hover {
+	text-decoration: underline;
+}
+hr {
+	color: black;
+	opacity: .1;
+}
 
 footer{
 	margin:0 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	background-color: #cacad2;
-	width: 98.5%;
+	width: 99.7%;
 	position: absolute;
-	bottom: 10px;
+	bottom: 0;
+	left: 0;
 }
