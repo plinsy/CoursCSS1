@@ -1,4 +1,7 @@
-
+*{
+font-family:Roboto,Arial,sans-serif;
+font-size: 14px;
+}
 header{
 	text-align: right;
 	word-spacing: 5px;
@@ -86,6 +89,7 @@ footer{
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color: #cacad2;
+	opacity: .5;
 	width: 99.7%;
 	position: absolute;
 	bottom: 0;
